@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HOME PAGE</title>
+<style>
+body {
+  background-image: url('image/blue 1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 43.33%;
+  padding: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+  <h1 style="background-color:DodgerBlue;text-align: center">MY PERSONAL WEBSITE</h1>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 19px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: navy;
+}
+</style>
+
+<ul>
+  <li><a href="index.html" class="active">Home</a></li>
+  <li><a href="Biodata.html">Biodata</a></li>
+  <li><a href="Education.html">Education</a></li>
+  <li><a href="Experience.html">Experience</a></li>
+  <li><a href="Family.html">Family</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+</ul>
+    
+    <p></p>
+  <style>
+img {
+  align-image: right;
+}
+</style>
+    <div class="clearfix">
+  <div class="img-container">
+  <img src="image/hensem.jpg" alt="hensem" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="image/home 1.jpg" alt="kertas" style="width:100%">
+  </div>
+  
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<script>
+  alert ("Hello, Welcome to Hamdi's personal website!")
+  </script>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="malaysia">Malaysia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+</body>
+</html>
